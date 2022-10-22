@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "System made a backup now!"
-
-cp -r dirforbackup/. backupresults
+mkdir dir backup
+cp -r dirforbackup/. backup/results
